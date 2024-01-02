@@ -51,7 +51,7 @@ Digite: 'composer install`
 
 <p> execute ./vendor/bin/sail npm run dev </p>
 
-<p> acese no navegador http://0.0.0.0/ </p>
+<p> acese no navegador http://0.0.0.0/ ou localhost </p>
 
 __<p> Decisões Tecnicas <p>__
 <p> Foi escolhido o laravel scout e o algolia para realizar o fuzzy search por ser nativo e permitir um limite gratuito  e de 'facil' implementação </p>
