@@ -11,6 +11,9 @@ services:
         ports:
             - '${APP_PORT:-80}:80'
             - '${VITE_PORT:-5173}:${VITE_PORT:-5173}'
+            
+        command: npm run dev
+
         environment:
             WWWUSER: '${WWWUSER}'
             LARAVEL_SAIL: 1

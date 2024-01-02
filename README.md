@@ -20,8 +20,6 @@
    - vá até o power shell e digite wsl --install
 </p>
 
-
-
 <p> no wsl ubuntu instale o  php 8.2. </p>
 <p> no wsl ubuntu Instale o composer </p>
 Digite: 'composer install`
