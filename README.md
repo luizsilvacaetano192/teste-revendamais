@@ -12,17 +12,19 @@
     Para rodar o teste você precisa ter o docker instalado <a href="https://www.docker.com/">Docker</a> e para rodar em ambiente windows vai precisar do wsl ubuntu instalado.
 </p>
 <p>
+    No docker em settings - resources - wsl integration > abilite a integração com wls distro ubuntu.
+</p>
+
+<p>
    Instalando o wsl ubuntu para windows.
    - vá até o power shell e digite wsl --install
 </p>
 
 
 
-no wsl ubuntu instale o  php 8.2.
-no wsl ubuntu Instale o composer
+<p> no wsl ubuntu instale o  php 8.2. </p>
+<p> no wsl ubuntu Instale o composer </p>
 Digite: 'composer install`
-
-Copie o  .env.example -> .env
 
 Clone o Teste em uma pasta.
 Digite: https://github.com/luizsilvacaetano192/teste-revendamais.git.
@@ -31,6 +33,10 @@ Digite: https://github.com/luizsilvacaetano192/teste-revendamais.git.
 <p> Acesse a pasta do projeto clonado <br>
     cd teste-revendamais
 </p>
+
+<p> Copie o  .env.example -> .env </p>
+
+ <p> execute ./vendor/bin/sai artisan key:generate <br>
 
 <p> Rode o projeto localmente executando <br>
 ./vendor/bin/sail up
