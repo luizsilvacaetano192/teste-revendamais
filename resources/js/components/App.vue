@@ -163,7 +163,7 @@
         },
         methods: {
            async getZipCodeData(zipCode) {
-                const response = await fetch('localhost/api/v1/addresses?zip_code=' + zipCode);
+                const response = await fetch('api/v1/addresses?zip_code=' + zipCode);
                 const data = await response.json();   
                 if(response.ok){
                     this.resultZipCode = '';
@@ -183,7 +183,7 @@
             },
 
             async getfuzzySearchData(fuzzySearch) {
-                const response = await fetch('localhost/api/v1/addresses/search?fuzzySearch=' + fuzzySearch);
+                const response = await fetch('api/v1/addresses/search?fuzzySearch=' + fuzzySearch);
                 const data = await response.json();   
                 if(response.ok){
                     this.objSearch = data;
