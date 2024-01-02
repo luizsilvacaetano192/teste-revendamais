@@ -1,14 +1,11 @@
 <template>  
-    <div class="sm:px-3 border-gray-900/10 text-white gray-500 bg-gray-50 dark:bg-gray-700 lg:px-4 py-4 mx-auto space-y-4 sm:space-y-16">
-        <h3> Teste Api e spa Revendamais </h3>   
-    </div>
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div class="sm:px-3 border-gray-900/10 text-white gray-500 bg-gray-50 dark:bg-gray-700 lg:px-4 py-4 mx-auto space-y-4 sm:space-y-16">
             <h3> Pesquisa por Cep </h3>   
         </div>
         <div class="space-y-12 sm:space-y-16">
             <div class="mt-10 space-y-8 border-b border-gray-900/10 pb-12 sm:space-y-0 sm:divide-y sm:divide-gray-900/10 sm:border-t sm:pb-0">
-                <div class="dark:bg-gray-700 mt-10 space-y-8 border-b border-gray-900/10 pb-12 sm:space-y-0 sm:divide-y sm:divide-gray-900/10 sm:border-t sm:pb-0">
+                <div class="dark:bg-gray-700 mt-2 space-y-8 border-b border-gray-900/10 pb-12 sm:space-y-0 sm:divide-y sm:divide-gray-900/10 sm:border-t sm:pb-0">
                     <div class="sm:grid sm:grid-cols-3 sm:items-start sm:gap-4 sm:py-6">
                         <label for="zip-code" class="sm:px-3 py-4 sm:space-y-16 space-y-4 text-white block text-sm font-medium leading-6 text-gray-900 sm:pt-1.5">CEP</label>
                         <div class="mt-2 sm:col-span-2 sm:mt-0">
@@ -51,12 +48,10 @@
 </template>
 
 <script>
-  //  import FuzzySearch from '@/components/FuzzySearch.vue'
+
     import VueMask from 'v-mask';
     export default {
-     //   components: {
-      //      FuzzySearch,
-	 //   },
+
         directives: {VueMask},
         data() {
             return {
