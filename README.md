@@ -32,7 +32,7 @@ Digite: https://github.com/luizsilvacaetano192/teste-revendamais.git.
     cd teste-revendamais
 </p>
 
-<pRode o projeto localmente executando <br>
+<p> Rode o projeto localmente executando <br>
 ./vendor/bin/sail up
 </p>
 
