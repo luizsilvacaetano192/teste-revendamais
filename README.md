@@ -20,25 +20,26 @@ __<p> Teste de Api Laravel 10 e spa vuejs 3.__</p>__
    - vá até o power shell e digite wsl --install
 </p>
 
-<p> no wsl ubuntu instale o  php 8.2. </p>
-<p> no wsl ubuntu Instale o composer </p>
-Digite: 'composer install`
-
 Clone o Teste em uma pasta.
 Digite: git clone https://github.com/luizsilvacaetano192/teste-revendamais.git.
-
 
 <p> Acesse a pasta do projeto clonado <br>
     cd teste-revendamais
 </p>
 
-<p> Copie o  .env.example -> .env </p>
+<p> no wsl ubuntu instale o  php 8.2. </p>
+<p> no wsl ubuntu Instale o composer </p>
+Digite: 'composer install`
 
- <p> execute ./vendor/bin/sail artisan key:generate <br>
+<p> Copie o  .env.example -> .env - Digite o comando cp .env.example .env </p>
+
+<p> altere o arquivo .env como mencionado no email <br>
 
 <p> Rode o projeto localmente executando <br>
     ./vendor/bin/sail up
 </p>
+
+<p> execute ./vendor/bin/sail artisan key:generate <br>
 
 ## Crie as tabelas do banco de dados usando o Sail
 <p>./vendor/bin/sail artisan migrate</p>
