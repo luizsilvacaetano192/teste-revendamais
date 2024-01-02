@@ -30,6 +30,9 @@ Digite: git clone https://github.com/luizsilvacaetano192/teste-revendamais.git.
 <p> no wsl ubuntu instale o  php 8.2. </p>
 <p> no wsl ubuntu Instale o composer </p>
 Digite: 'composer install`
+caso haja erro execute o sudo apt-get install php-curl e o 
+sudo apt-get install php-xml
+
 
 <p> Copie o  .env.example -> .env - Digite o comando cp .env.example .env </p>
 
