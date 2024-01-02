@@ -12,7 +12,7 @@ __<p> Teste de Api Laravel 10 e spa vuejs 3.__</p>__
     Para rodar o teste você precisa ter o docker instalado <a href="https://www.docker.com/">Docker</a> e para rodar em ambiente windows vai precisar do wsl ubuntu instalado.
 </p>
 <p>
-    No docker em settings - resources - wsl integration > abilite a integração com wls distro ubuntu.
+    No docker em settings - resources - wsl integration > habilite a integração com wls distro ubuntu.
 </p>
 
 <p>
@@ -25,7 +25,7 @@ __<p> Teste de Api Laravel 10 e spa vuejs 3.__</p>__
 Digite: 'composer install`
 
 Clone o Teste em uma pasta.
-Digite: https://github.com/luizsilvacaetano192/teste-revendamais.git.
+Digite: git clone https://github.com/luizsilvacaetano192/teste-revendamais.git.
 
 
 <p> Acesse a pasta do projeto clonado <br>
