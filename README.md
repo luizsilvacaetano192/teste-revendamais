@@ -36,10 +36,10 @@ Digite: https://github.com/luizsilvacaetano192/teste-revendamais.git.
 
 <p> Copie o  .env.example -> .env </p>
 
- <p> execute ./vendor/bin/sai artisan key:generate <br>
+ <p> execute ./vendor/bin/sail artisan key:generate <br>
 
 <p> Rode o projeto localmente executando <br>
-./vendor/bin/sail up
+    ./vendor/bin/sail up
 </p>
 
 ## Crie as tabelas do banco de dados usando o Sail
