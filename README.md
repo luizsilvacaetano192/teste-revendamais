@@ -25,7 +25,7 @@ __<p> Teste de Api Laravel 10 e spa vuejs 3.__</p>__
 Digite: 'composer install`
 
 Clone o Teste em uma pasta.
-Digite: https://github.com/luizsilvacaetano192/teste-revendamais.git.
+Digite: git clone https://github.com/luizsilvacaetano192/teste-revendamais.git.
 
 
 <p> Acesse a pasta do projeto clonado <br>
