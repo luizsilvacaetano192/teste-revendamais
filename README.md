@@ -32,11 +32,11 @@ Digite: git clone https://github.com/luizsilvacaetano192/teste-revendamais.git.
 
 <p> Copie o  .env.example -> .env - Digite o comando cp .env.example .env </p>
 
+<p> altere o arquivo .env como mencionado no email <br>
+
 Digite: 'composer install`
 caso haja erro execute o sudo apt-get install php-curl e o 
 sudo apt-get install php-xml
-
-<p> altere o arquivo .env como mencionado no email <br>
 
 <p> Rode o projeto localmente executando <br>
     ./vendor/bin/sail up -d
