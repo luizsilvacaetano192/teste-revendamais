@@ -36,7 +36,7 @@ Digite: 'composer install`
 <p> altere o arquivo .env como mencionado no email <br>
 
 <p> Rode o projeto localmente executando <br>
-    ./vendor/bin/sail up
+    ./vendor/bin/sail up -d
 </p>
 
 <p> execute ./vendor/bin/sail artisan key:generate <br>
@@ -46,6 +46,12 @@ Digite: 'composer install`
 
 ## Crie os registros fake usando o 
 <p>./vendor/bin/sail artisan db:seed</p>
+
+<p> execute ./vendor/bin/sail npm install </p>
+
+<p> execute ./vendor/bin/sail npm run dev </p>
+
+<p> acese no navegador http://0.0.0.0/ </p>
 
 __<p> Decisões Tecnicas <p>__
 <p> Foi escolhido o laravel scout e o algolia para realizar o fuzzy search por ser nativo e permitir um limite gratuito  e de 'facil' implementação </p>
