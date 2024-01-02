@@ -1,4 +1,4 @@
-<p>Teste de Api Laravel 10 e spa vuejs 3.</p>
+__<p> Teste de Api Laravel 10 e spa vuejs 3.__</p>__
 
 - [x] Criar api Laravel de endereços e implementar CRUD (Create, Read, Update, Delete) no sistema de endereços.
 - [x] Criar um end-point para busca por CEP 
@@ -46,6 +46,8 @@ Digite: https://github.com/luizsilvacaetano192/teste-revendamais.git.
 ## Crie os registros fake usando o 
 <p>./vendor/bin/sail artisan db:seed</p>
 
-<p> Decisões Tecnicas <br>
-   
-</p>
+__<p> Decisões Tecnicas <p>__
+<p> Foi escolhido o laravel scout e o algolia para realizar o fuzzy search por ser nativo e permitir um limite gratuito  e de 'facil' implementação </p>
+<p> Foi escolhido o laravel sail para se criar a container do projeto por ser nativo e facilidando a Dockerização </p>
+<p> Para o front vue foi escolhido o tailwind por deixar o layout mais atrativo e proficional </p>
+
