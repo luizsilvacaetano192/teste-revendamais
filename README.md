@@ -50,5 +50,5 @@ Digite: 'composer install`
 __<p> Decisões Tecnicas <p>__
 <p> Foi escolhido o laravel scout e o algolia para realizar o fuzzy search por ser nativo e permitir um limite gratuito  e de 'facil' implementação </p>
 <p> Foi escolhido o laravel sail para se criar a container do projeto por ser nativo e facilidando a Dockerização </p>
-<p> Para o front vue foi escolhido o tailwind por deixar o layout mais atrativo e proficional </p>
+<p> Para o front vue foi escolhido o tailwind por deixar o layout  atrativo e profissional </p>
 
