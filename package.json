@@ -18,5 +18,8 @@
         "@vitejs/plugin-vue": "^5.0.1",
         "v-mask": "^2.3.0",
         "vue": "^3.2.36"
+    },
+    "optionalDependencies": {
+        "@rollup/rollup-linux-arm64-musl": "^4.9.2"
     }
 }
